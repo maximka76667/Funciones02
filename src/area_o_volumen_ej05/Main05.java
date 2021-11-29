@@ -9,7 +9,7 @@ public class Main05 {
 	}
 	
 	public static double calcularVolumen(double radio, double altura) {
-		return Math.PI * Math.pow(radio, 2) * altura;
+		return calcularArea(radio) * altura;
 	}
 
 	public static void main(String[] args) {
