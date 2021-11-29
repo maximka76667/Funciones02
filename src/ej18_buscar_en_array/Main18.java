@@ -7,8 +7,8 @@ public class Main18 {
 	public static boolean buscarNumero(int[] numeros, int numero_buscando) {
 
 		// Con bucle for
-		//		for(int i = 0; i < numeros.length; i++) if(numeros[i] == numero_buscando) return true;
-		//		return false;
+		// for(int i = 0; i < numeros.length; i++) if(numeros[i] == numero_buscando) return true;
+		// return false;
 
 		// Binary Search
 		Arrays.sort(numeros);
