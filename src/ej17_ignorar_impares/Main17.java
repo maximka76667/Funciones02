@@ -26,7 +26,6 @@ public class Main17 {
 		for(int i = 0; i < N; i++) numeros_nuevos[i] = numeros[i];
 
 		System.out.println("Array final (impares son ignorados): ");
-
 		for(int i = 0; i < numeros_nuevos.length; i++) System.out.print(numeros_nuevos[i] + " ");
 
 		System.out.println("\nCantidad ignorados: " + cantidad_ignorados);
