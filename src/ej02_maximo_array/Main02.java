@@ -1,4 +1,4 @@
-package maximo_array_ej02;
+package ej02_maximo_array;
 
 public class Main02 {
 	

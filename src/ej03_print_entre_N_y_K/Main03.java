@@ -1,4 +1,4 @@
-package print_entre_N_y_K_ej03;
+package ej03_print_entre_N_y_K;
 
 import java.util.Scanner;
 

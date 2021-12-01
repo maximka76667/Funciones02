@@ -1,4 +1,4 @@
-package area_o_volumen_ej05;
+package ej05_area_o_volumen;
 
 import java.util.Scanner;
 

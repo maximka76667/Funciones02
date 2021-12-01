@@ -1,4 +1,4 @@
-package print_N_times_ej01;
+package ej01_print_N_times;
 
 import java.util.Scanner;
 

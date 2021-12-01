@@ -1,4 +1,4 @@
-package doubleN_ej04;
+package ej04_doubleN;
 
 import java.util.Scanner;
 
