@@ -6,7 +6,7 @@ public class Main19 {
 	public static double[] opera_tabla(double[] array1, double[] array2, int elem_utiles, char opera) {
 		double[] array3 = new double[elem_utiles];
 		
-		for(int i = 0; i < elem_utiles; i++) {
+		for(int i = 0; i < array3.length; i++) {
 			switch (opera) {
 			case 's':
 				array3[i] = array1[i] + array2[i];
@@ -33,6 +33,8 @@ public class Main19 {
 	}
 
 	public static void main(String[] args) {
+		
+		// Entrada
 		Scanner entrada = new Scanner(System.in);
 		
 		double[] numeros1 = {10, 20, 50, -10};
@@ -48,8 +50,10 @@ public class Main19 {
 		// Check if elem_utiles no es más que es posible
 		if(elem_utiles > longitud_maxima) elem_utiles = longitud_maxima;
 		
+		// Crear array3
 		double[] numeros3 = opera_tabla(numeros1, numeros2, elem_utiles, opera);
 		
+		// Print array3
 		for (int i = 0; i < numeros3.length; i++) System.out.println(numeros3[i]);
 		
 		entrada.close();
