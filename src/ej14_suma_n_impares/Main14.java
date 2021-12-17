@@ -21,7 +21,7 @@ public class Main14 {
 		System.out.print("N: ");
 		int N = entrada.nextInt();
 
-		System.out.println(sumarNImpares(N));
+		System.out.println("Suma: " + sumarNImpares(N));
 
 		entrada.close();
 	}

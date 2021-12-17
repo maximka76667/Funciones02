@@ -6,9 +6,9 @@ public class Main15 {
 	
 	public static void mostrarFuncionesTrigo(double angulo) {
 		double anguloInRadian = Math.toRadians(angulo);
-		System.out.println(Math.round(Math.sin(anguloInRadian) * 100) / 100.0);
-		System.out.println(Math.round(Math.cos(anguloInRadian) * 100) / 100.0);
-		System.out.println(Math.round(Math.tan(anguloInRadian) * 100) / 100.0);
+		System.out.println("Sin: " + Math.round(Math.sin(anguloInRadian) * 100) / 100.0);
+		System.out.println("Cos: " + Math.round(Math.cos(anguloInRadian) * 100) / 100.0);
+		System.out.println("Tan: " + Math.round(Math.tan(anguloInRadian) * 100) / 100.0);
 	}
 
 	public static void main(String[] args) {

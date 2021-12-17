@@ -10,20 +10,27 @@ public class Main06 {
 	public static double calcularVolumen(double radio, double altura) {
 		return calcularArea(radio) * altura;
 	}
+	
+	public static double[] calcular(double radio, double altura) {
+		double[] resultado = new double[2];
+		
+		resultado[0] = calcularArea(radio);
+		resultado[1] = calcularVolumen(radio, altura);
+		
+		return resultado;
+	}
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 
 		double radio;
-		double[] resultado = new double[2];
 
 		System.out.print("Radio: ");
 		radio = entrada.nextDouble();
 		System.out.print("Altura: ");
 		double altura = entrada.nextDouble();
 		
-		resultado[0] = calcularArea(radio);
-		resultado[1] = calcularVolumen(radio, altura);
+		double[] resultado = calcular(radio, altura);
 
 		System.out.println("Area: " + resultado[0]);
 		System.out.println("Volumen: " + resultado[1]);

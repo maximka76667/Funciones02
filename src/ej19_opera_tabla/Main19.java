@@ -41,7 +41,7 @@ public class Main19 {
 		double[] numeros2 = {30, 50, 10, -5};
 		int longitud_maxima = Math.max(numeros1.length, numeros2.length);
 		
-		System.out.print("Operación: ");
+		System.out.print("Operación(s/r/m/d): ");
 		char opera = entrada.nextLine().charAt(0);
 		
 		System.out.print("Elementos útiles: ");
