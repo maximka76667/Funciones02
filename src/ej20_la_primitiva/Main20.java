@@ -3,7 +3,7 @@ package ej20_la_primitiva;
 public class Main20 {
 
 	public static void main(String[] args) {
-		final int NUMERO_MAXIMO = 30;
+		final int NUMERO_MAXIMO = 100;
 		int[] apuesta = generarArray(6, NUMERO_MAXIMO);
 		int[] ganadores = generarArray(6, NUMERO_MAXIMO);
 		
